@@ -1,6 +1,6 @@
 # Mock-RCM-Project
 
-![Project Thumbnail](RCM Image.jpeg)
+![Project Thumbnail](https://revcosolutions.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/03/revco-Leveraging-Data-for-Revenue-Cycle-Optimization.jpg.webp)
 
 ## Overview
 This repository contains a mock dataset and SQL scripts simulating key components of a Revenue Cycle Management (RCM) system. It’s designed for learning, testing, and demonstrating SQL-based data validation, quality checks, and performance analysis for healthcare claims data.
