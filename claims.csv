@@ -1,0 +1,7 @@
+﻿claim_id,patient_id,provider_id,payer,procedure_code,diagnosis_code,billed_amount,date_of_service,submission_date,status
+1001,200,10,Medicare,99213,E11.9,120,1/10/2022,2/20/2022,submitted
+1002,201,11,Aetna,99214,,150,1/12/2022,1/18/2022,submitted
+1003,202,10,Medicare,99215,E78.5,200,1/15/2022,3/1/2022,submitted
+1004,203,12,BlueCross,99999,E11.65,100,1/20/2022,2/22/2022,submitted
+1005,204,11,Cigna,99213,E11.9,130,1/21/2022,,billed
+1006,205,13,Medicare,99213,F41.1,110,1/18/2022,1/20/2022,paid

@@ -1,0 +1,6 @@
+﻿payer,rule_name,rule_logic,severity
+ALL,Missing Diagnosis,diagnosis_code IS NULL OR diagnosis_code = '',critical
+ALL,Invalid CPT,"procedure_code NOT IN ('99213','99214','99215')",warning
+ALL,Late Submission,submission_date - date_of_service > 30,warning
+ALL,No Submission,status = 'billed' AND submission_date IS NULL,critical
+Medicare,Medicare Diagnosis Req,diagnosis_code NOT LIKE 'E%',critical
